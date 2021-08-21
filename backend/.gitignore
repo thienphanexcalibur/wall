@@ -1,0 +1,10 @@
+# /backend
+.idea
+.eslintcache
+node_modules
+*.js.map
+*.js
+data-db
+error.log
+combined.log
+minio

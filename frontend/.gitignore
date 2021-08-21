@@ -1,0 +1,6 @@
+# /frontend
+dist
+.parcel-cache
+node_modules
+.eslintcache
+.DS_Store
