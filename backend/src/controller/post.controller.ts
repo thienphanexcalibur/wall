@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { IPost, PostModel, UserModel } from '@entity';
+import { IPost, PostModel, UserModel } from '@/entity';
 import Controller from './controller';
 
 export default class PostController extends Controller {

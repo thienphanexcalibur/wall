@@ -1,4 +1,4 @@
-import { CommentModel, IComment, PostModel } from '@entity';
+import { CommentModel, IComment, PostModel } from '@/entity';
 import { NextFunction, Request, Response } from 'express';
 import { Document } from 'mongoose';
 

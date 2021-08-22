@@ -1,6 +1,6 @@
 // Authentication Controller
-import { IUser, UserModel } from '@entity';
-import { generateToken, verifyToken, _hash, _hashCompare } from '@utils';
+import { IUser, UserModel } from '@/entity';
+import { generateToken, verifyToken, _hash, _hashCompare } from '@/utils';
 import { NextFunction, Request, Response } from 'express';
 import { ObjectId } from 'mongoose';
 import Controller from './controller';

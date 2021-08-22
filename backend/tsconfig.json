@@ -1,48 +1,16 @@
 {
-	"compilerOptions": {
-		"module": "commonjs",
-		"esModuleInterop": true,
-		"target": "es6",
-		"noImplicitAny": true,
-		"moduleResolution": "node",
-		"allowSyntheticDefaultImports": true,
-		"sourceMap": true,
-		"baseUrl": ".",
-		"paths": {
-			"@": [
-				"./src"
-			],
-			"@/*": [
-				"./src/*"
-			],
-			"@routes": [
-				"./src/routes",
-				"./src/routes/*"
-			],
-			"@controller": [
-				"./src/controller"
-			],
-			"@controller/*": [
-				"./src/controller/*"
-			],
-			"@middlewares": [
-				"./src/middlewares/*"
-			],
-			"@entity": [
-				"./src/entity",
-				"./src/entity/*"
-			],
-			"@utils": [
-				"./src/utils"
-			],
-			"@utils/*": [
-				"./src/utils/*"
-			]
-		}
-	},
-	"include": [
-		"src/**/*.*.ts",
-		"src/**/*.ts"
-	],
-	"exclude": ["node_modules"]
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@": ["./src"]
+    }
+  },
+  "exclude": ["node_modules"]
 }

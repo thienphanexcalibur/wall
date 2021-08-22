@@ -1,6 +1,6 @@
 import express, { Express } from 'express';
 import mongoose, { Connection } from 'mongoose';
-import routes from '@routes';
+import routes from '@/routes';
 
 const { SERVER_PORT, DB_HOST, DB_PORT, DB_ROOT } = process.env;
 

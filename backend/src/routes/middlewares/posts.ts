@@ -1,6 +1,6 @@
 // Middlewares
 import { Router } from 'express';
-import { PostController } from '@controller';
+import { PostController } from '@/controller';
 
 const router: Router = Router();
 

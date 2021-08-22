@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CommentController, AuthController } from '@controller';
+import { CommentController, AuthController } from '@/controller';
 
 const router: Router = Router();
 const commentController = new CommentController();

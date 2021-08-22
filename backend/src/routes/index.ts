@@ -2,7 +2,7 @@ import { Express, Request, Response, NextFunction, urlencoded, json } from 'expr
 
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import { logger } from '@utils';
+import { logger } from '@/utils';
 import {
 	AuthMiddleware,
 	PostMiddleware,

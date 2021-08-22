@@ -1,6 +1,8 @@
 // Middlewares
 import { Router } from 'express';
-import { AuthController, UserController } from '@controller';
+import { AuthController, UserController } from '@/controller';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const multer = require('multer');
 
 const router: Router = Router();
